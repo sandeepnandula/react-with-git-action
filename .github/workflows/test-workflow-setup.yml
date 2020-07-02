@@ -20,8 +20,8 @@ jobs:
         with:
           node-version: '12'
           check-latest: true
-          
-      - uses: ./.github/actions/run-test-cases
+
+      - uses: ./.github/actions/hello-world
 
       - run: npm install
       - run: npm test
